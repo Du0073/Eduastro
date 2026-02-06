@@ -7,6 +7,23 @@
     <title>Eduastro - Astronomy Outreach</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
+      // Configure Tailwind to use the 'class' strategy for dark mode
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            colors: {
+              dark: {
+                bg: '#0a0e27',
+                card: '#1a1f3a',
+                hover: '#252b48'
+              }
+            }
+          }
+        }
+      }
+    </script>
+    <script>
       // Set theme on initial load to prevent flash of wrong theme
       if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
         document.documentElement.classList.add('dark')
@@ -14,16 +31,16 @@
         document.documentElement.classList.remove('dark')
       }
     </script>
-  <script type="importmap">
-{
-  "imports": {
-    "react/": "https://esm.sh/react@^19.2.3/",
-    "react": "https://esm.sh/react@^19.2.3",
-    "react-dom/": "https://esm.sh/react-dom@^19.2.3/"
-  }
-}
-</script>
-</head>
+    <script type="importmap">
+    {
+      "imports": {
+        "react/": "https://esm.sh/react@^19.2.3/",
+        "react": "https://esm.sh/react@^19.2.3",
+        "react-dom/": "https://esm.sh/react-dom@^19.2.3/"
+      }
+    }
+    </script>
+  </head>
   <body class="bg-gray-50 dark:bg-slate-900 text-slate-900 dark:text-slate-200 antialiased">
     <div id="root"></div>
     <script type="module" src="/index.tsx"></script>
