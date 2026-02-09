@@ -6,28 +6,28 @@ export interface CardContent {
 
 export const simulations: CardContent[] = [
   {
-    title: 'Orbital Mechanics',
-    description: "Explore planetary orbits, Kepler's laws, and gravitational interactions in our solar system and beyond.",
+    title: 'Simulation 1',
+    description: "An interactive astronomical simulation currently in development. Stay tuned for updates.",
   },
   {
-    title: 'Stellar Evolution',
-    description: 'Watch stars evolve from birth to death, understanding the life cycles of different stellar masses.',
+    title: 'Simulation 2',
+    description: 'An interactive astronomical simulation currently in development. Stay tuned for updates.',
   },
   {
-    title: 'Galaxy Collisions',
-    description: 'Simulate the dramatic interactions between galaxies and observe the formation of new structures.',
+    title: 'Simulation 3',
+    description: 'An interactive astronomical simulation currently in development. Stay tuned for updates.',
   },
   {
-    title: 'Coordinate Systems',
-    description: 'Learn about different astronomical coordinate systems and how to convert between them.',
+    title: 'Simulation 4',
+    description: 'An interactive astronomical simulation currently in development. Stay tuned for updates.',
   },
   {
-    title: 'Light Curves',
-    description: 'Analyze brightness variations of celestial objects over time and discover exoplanets.',
+    title: 'Simulation 5',
+    description: 'An interactive astronomical simulation currently in development. Stay tuned for updates.',
   },
   {
-    title: 'Spectroscopy Tools',
-    description: 'Understand stellar spectra, chemical composition, and the Doppler effect in astronomy.',
+    title: 'Simulation 6',
+    description: 'An interactive astronomical simulation currently in development. Stay tuned for updates.',
   },
 ];
 
