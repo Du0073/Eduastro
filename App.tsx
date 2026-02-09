@@ -6,7 +6,7 @@ import Section from './components/Section';
 import Card from './components/Card';
 import About from './components/About';
 import Footer from './components/Footer';
-import { simulations, astrocomputing, astronomyForAll } from './constants';
+import { simulations, notes, astronomyForAll } from './constants';
 
 const App: React.FC = () => {
   return (
@@ -28,12 +28,12 @@ const App: React.FC = () => {
           </Section>
 
           <Section
-            id="astrocomputing"
-            title="💻 Astrocomputing"
-            subtitle="Computational methods, statistics, and machine learning in astronomy"
+            id="notes"
+            title="📝 Educational Notes"
+            subtitle="A collection of astronomical infographics and visual summaries"
           >
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-              {astrocomputing.map((item) => (
+              {notes.map((item) => (
                 <Card key={item.title} title={item.title} description={item.description} />
               ))}
             </div>

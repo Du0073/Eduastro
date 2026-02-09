@@ -31,30 +31,30 @@ export const simulations: CardContent[] = [
   },
 ];
 
-export const astrocomputing: CardContent[] = [
+export const notes: CardContent[] = [
     {
-        title: 'Statistical Analysis',
-        description: 'Projects demonstrating statistical methods for analyzing astronomical data and extracting meaningful patterns.',
+        title: 'Solar System at a Glance',
+        description: 'Visual infographics detailing the scale, composition, and unique characteristics of our planetary neighbors.',
     },
     {
-        title: 'Machine Learning',
-        description: 'Applications of ML algorithms in astronomy, from galaxy classification to exoplanet detection.',
+        title: 'Stellar Evolution Map',
+        description: 'A comprehensive visual guide following the journey of stars from stellar nurseries to their dramatic finales.',
     },
     {
-        title: 'N-Body Simulations',
-        description: 'Computational astrophysics projects simulating gravitational interactions of multiple bodies.',
+        title: 'The Messier Catalog',
+        description: 'Illustrated notes on the 110 deep-sky objects, perfect for amateur astronomers and visual learners.',
     },
     {
-        title: 'Data Pipelines',
-        description: 'Building efficient workflows for processing large astronomical datasets and surveys.',
+        title: 'Spectroscopy Basics',
+        description: 'Breaking down how we analyze starlight to discover the chemical blueprints of the universe through color.',
     },
     {
-        title: 'Image Processing',
-        description: 'Techniques for enhancing and analyzing astronomical images from telescopes and surveys.',
+        title: 'Moon Phase Cycle',
+        description: 'A clear, step-by-step visual explanation of lunar phases and why they change from our perspective on Earth.',
     },
     {
-        title: 'Time Series Analysis',
-        description: 'Methods for analyzing variable stars, transients, and other time-dependent phenomena.',
+        title: 'Cosmic Distance Ladder',
+        description: 'Infographics explaining the various methods astronomers use to measure distances across the vast cosmos.',
     },
 ];
 
