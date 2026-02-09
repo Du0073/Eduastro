@@ -6,7 +6,7 @@ import Section from './components/Section';
 import Card from './components/Card';
 import About from './components/About';
 import Footer from './components/Footer';
-import { simulations, notes, astronomyForAll } from './constants';
+import { simulations, notes, astronomyForAll, donationOptions } from './constants';
 
 const App: React.FC = () => {
   return (
@@ -47,6 +47,23 @@ const App: React.FC = () => {
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
               {astronomyForAll.map((item) => (
                 <Card key={item.title} title={item.title} description={item.description} />
+              ))}
+            </div>
+          </Section>
+
+          <Section
+            id="help-us"
+            title="❤️ Help Us"
+            subtitle="Support Eduastro and help us continue making the universe accessible to everyone"
+          >
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+              {donationOptions.map((item) => (
+                <div key={item.title} className="flex flex-col">
+                  <Card title={item.title} description={item.description} />
+                  <button className="mt-4 px-6 py-3 bg-indigo-500 hover:bg-indigo-600 text-white font-bold rounded-xl transition-colors shadow-lg shadow-indigo-500/20">
+                    Donate Now
+                  </button>
+                </div>
               ))}
             </div>
           </Section>

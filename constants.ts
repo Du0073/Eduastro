@@ -84,3 +84,18 @@ export const astronomyForAll: CardContent[] = [
         description: 'Projects working to preserve dark skies and reduce light pollution for better stargazing.',
     },
 ];
+
+export const donationOptions: CardContent[] = [
+  {
+    title: 'Star Sponsor',
+    description: 'Support our basic operations and help us maintain our website and free educational resources.',
+  },
+  {
+    title: 'Galaxy Patron',
+    description: 'Contribute to the development of new interactive simulations and advanced astronomical tools.',
+  },
+  {
+    title: 'Cosmic Voyager',
+    description: 'Help us fund global outreach projects and community stargazing events in underserved areas.',
+  },
+];
