@@ -60,28 +60,28 @@ export const notes: CardContent[] = [
 
 export const astronomyForAll: CardContent[] = [
     {
-        title: 'Global Projects',
-        description: 'Discover amazing astronomy outreach initiatives from around the world making science accessible to everyone.',
+        title: 'Project 1',
+        description: 'A collaborative astronomy outreach project currently in development. Stay tuned for details.',
     },
     {
-        title: 'Educational Resources',
-        description: 'Curated collection of free educational materials, courses, and tools for learning astronomy.',
+        title: 'Project 2',
+        description: 'A collaborative astronomy outreach project currently in development. Stay tuned for details.',
     },
     {
-        title: 'Community Events',
-        description: 'Star parties, public observations, and astronomy events happening in communities worldwide.',
+        title: 'Project 3',
+        description: 'A collaborative astronomy outreach project currently in development. Stay tuned for details.',
     },
     {
-        title: 'Citizen Science',
-        description: 'Opportunities to contribute to real astronomical research through citizen science projects.',
+        title: 'Project 4',
+        description: 'A collaborative astronomy outreach project currently in development. Stay tuned for details.',
     },
     {
-        title: 'Observatory Networks',
-        description: 'Connect with observatories and planetariums offering virtual tours and online programs.',
+        title: 'Project 5',
+        description: 'A collaborative astronomy outreach project currently in development. Stay tuned for details.',
     },
     {
-        title: 'Dark Sky Initiatives',
-        description: 'Projects working to preserve dark skies and reduce light pollution for better stargazing.',
+        title: 'Project 6',
+        description: 'A collaborative astronomy outreach project currently in development. Stay tuned for details.',
     },
 ];
 
