@@ -17,7 +17,9 @@ const Hero: React.FC = () => {
             </p>
             <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
                 <a 
-                    href="#" 
+                    href="https://www.tiktok.com/@eduastro13" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
                     className="w-full sm:w-auto flex items-center justify-center gap-3 px-6 py-3 font-semibold rounded-lg bg-slate-800 dark:bg-slate-200 text-white dark:text-slate-900 hover:bg-slate-700 dark:hover:bg-white transition-colors duration-300"
                 >
                     <TiktokIcon className="w-5 h-5" />
