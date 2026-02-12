@@ -4,6 +4,7 @@ import Header from './components/Header';
 import Hero from './components/Hero';
 import Section from './components/Section';
 import Card from './components/Card';
+import SimulationItem from './components/SimulationItem';
 import About from './components/About';
 import Footer from './components/Footer';
 import { simulations, notes, astronomyForAll } from './constants';
@@ -20,9 +21,14 @@ const App: React.FC = () => {
             title="🔭 Simulations & Tools"
             subtitle="Interactive astronomy simulations and educational tools"
           >
-            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-              {simulations.map((item) => (
-                <Card key={item.title} title={item.title} description={item.description} />
+            <div className="max-w-4xl mx-auto flex flex-col gap-4">
+              {simulations.map((item, index) => (
+                <SimulationItem 
+                  key={item.title} 
+                  title={item.title} 
+                  description={item.description} 
+                  index={index}
+                />
               ))}
             </div>
           </Section>
